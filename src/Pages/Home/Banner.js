@@ -3,8 +3,8 @@ import bannerImg from "../../assets/images/chair.png";
 
 const Banner = () => {
   return (
-    <div className="hero min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+    <div className="hero min-h-screen lg:px-20">
+      <div className="hero-content flex-col lg:flex-row-reverse ">
         <img
           src={bannerImg}
           className="max-w-sm rounded-lg shadow-2xl"
