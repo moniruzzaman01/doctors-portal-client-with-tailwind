@@ -11,14 +11,14 @@ const Service = () => {
       </h3>
       <h1 className="text-5xl">Service We Provide</h1>
       <Cart />
-      <div className="hero lg:my-20 lg:px-20">
+      <div className="hero lg:my-32 lg:px-20">
         <div className="hero-content flex-col lg:flex-row">
           <img
             src={treatment}
-            className="max-w-sm rounded-lg shadow-2xl"
+            className="max-w-sm rounded-lg shadow-2xl lg:mr-5"
             alt=""
           />
-          <div className="text-left">
+          <div className="text-left lg:ml-5">
             <h1 className="text-5xl font-bold">
               Exceptional Dental Care, on Your Terms
             </h1>
@@ -30,7 +30,7 @@ const Service = () => {
               here', making it look like readable English. Many desktop
               publishing packages and web page
             </p>
-            <PrimaryBtn btnName={"get started"}></PrimaryBtn>
+            <PrimaryBtn>get started</PrimaryBtn>
           </div>
         </div>
       </div>
