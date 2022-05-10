@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../Contact";
 import HomeAppointment from "../HomeAppointment";
 import Service from "../Service/Service";
 import Testimonial from "../Testimonial/Testimonial";
@@ -13,6 +14,7 @@ const Home = () => {
       <Service />
       <HomeAppointment />
       <Testimonial />
+      <Contact />
     </div>
   );
 };

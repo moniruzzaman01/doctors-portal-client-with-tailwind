@@ -34,11 +34,11 @@ const Testimonial = () => {
     <section className="mx-5 my-20">
       <div className="flex ">
         <div className="flex-1">
-          <h4 className=" text-xl text-secondary font-bold">Testimonial</h4>
-          <h2 className="text-3xl">What Our Patients Says</h2>
+          <h4 className="text-xl text-secondary font-bold">Testimonial</h4>
+          <h2 className="text-5xl">What Our Patients Says</h2>
         </div>
         <div className="flex-1 justify-end flex">
-          <img className="bh-32 w-32" src={quote} alt="" />
+          <img className="w-24 lg:w-48" src={quote} alt="" />
         </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10">
