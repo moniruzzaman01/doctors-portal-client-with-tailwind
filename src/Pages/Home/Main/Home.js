@@ -1,11 +1,11 @@
 import React from "react";
+import Service from "../Service/Service";
 import Banner from "./Banner";
 import Info from "./Info";
-import Service from "./Service";
 
 const Home = () => {
   return (
-    <div>
+    <div className="lg:px-10">
       <Banner />
       <Info />
       <Service />

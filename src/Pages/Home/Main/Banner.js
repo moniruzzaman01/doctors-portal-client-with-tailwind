@@ -1,9 +1,10 @@
 import React from "react";
-import bannerImg from "../../assets/images/chair.png";
+import bannerImg from "../../../assets/images/chair.png";
+import PrimaryBtn from "../../Shared/PrimaryBtn";
 
 const Banner = () => {
   return (
-    <div className="hero min-h-screen lg:px-20">
+    <div className="hero my-10 lg:my-40">
       <div className="hero-content flex-col lg:flex-row-reverse ">
         <img
           src={bannerImg}
@@ -17,9 +18,7 @@ const Banner = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary">
-            Get Started
-          </button>
+          <PrimaryBtn btnName={"get started"}></PrimaryBtn>
         </div>
       </div>
     </div>
