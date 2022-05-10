@@ -8,6 +8,8 @@ const Banner = () => {
     <div
       style={{
         background: `url(${bannerBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
       className="hero lg:py-40"
     >

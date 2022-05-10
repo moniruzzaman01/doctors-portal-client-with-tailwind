@@ -7,6 +7,8 @@ const Contact = () => {
     <div
       style={{
         background: `url(${contactBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
       className=" text-center py-24"
     >
@@ -20,17 +22,17 @@ const Contact = () => {
         <input
           type="text"
           placeholder="Type here"
-          class="input mb-5 input-bordered w-full max-w-lg"
+          className="input mb-5 input-bordered lg:w-full w-11/12 max-w-lg"
         />
         <br />
         <input
           type="text"
           placeholder="Type here"
-          class="input mb-5 input-bordered w-full max-w-lg"
+          className="input mb-5 input-bordered lg:w-full w-11/12  max-w-lg"
         />
         <br />
         <textarea
-          class="textarea mb-5 textarea-bordered  w-full max-w-lg"
+          className="textarea mb-5 textarea-bordered  lg:w-full w-11/12 max-w-lg"
           placeholder="Bio"
         ></textarea>
         <br />

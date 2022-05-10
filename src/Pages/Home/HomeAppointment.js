@@ -8,6 +8,8 @@ const HomeAppointment = () => {
     <section
       style={{
         background: `url(${appoinment})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
       className="flex items-center px-10 mx-5 mt-20 lg:mt-32 p-5"
     >
