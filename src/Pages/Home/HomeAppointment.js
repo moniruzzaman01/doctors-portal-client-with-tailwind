@@ -1,6 +1,5 @@
 import React from "react";
-import doctor from "../../assets/images/doctor.png";
-import PrimaryBtn from "../Shared/PrimaryBtn";
+import doctor from "../../assets/images/doctor-small.png";
 import appoinment from "../../assets/images/appointment.png";
 
 const HomeAppointment = () => {
@@ -11,10 +10,10 @@ const HomeAppointment = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="flex items-center px-10 mx-5 mt-20 lg:mt-32 p-5"
+      className="flex items-center px-10 mx-5 mt-20 lg:mt-32"
     >
       <div className="flex-1 hidden lg:block">
-        <img className="mt-[-150px]" src={doctor} alt="" />
+        <img className="mt-[-100px]" src={doctor} alt="" />
       </div>
       <div className="flex-1">
         <h4 className="text-secondary text-lg font-bold">Appointment</h4>
@@ -27,7 +26,7 @@ const HomeAppointment = () => {
           look like readable English. Many desktop publishing packages and web
           page
         </p>
-        <PrimaryBtn>get started</PrimaryBtn>
+        <button className="btn btn-primary text-white">Get Started</button>
       </div>
     </section>
   );

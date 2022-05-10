@@ -1,6 +1,6 @@
 import React from "react";
-import PrimaryBtn from "../Shared/PrimaryBtn";
 import contactBg from "../../assets/images/appointment.png";
+import InputTag from "../Shared/InputTag";
 
 const Contact = () => {
   return (
@@ -19,24 +19,16 @@ const Contact = () => {
       "
         action=""
       >
-        <input
-          type="text"
-          placeholder="Type here"
-          className="input mb-5 input-bordered lg:w-full w-11/12 max-w-lg"
-        />
+        <InputTag placeholder={"Email Address"}></InputTag>
         <br />
-        <input
-          type="text"
-          placeholder="Type here"
-          className="input mb-5 input-bordered lg:w-full w-11/12  max-w-lg"
-        />
+        <InputTag placeholder={"Subject"}></InputTag>
         <br />
         <textarea
           className="textarea mb-5 textarea-bordered  lg:w-full w-11/12 max-w-lg"
-          placeholder="Bio"
+          placeholder="Your message"
         ></textarea>
         <br />
-        <PrimaryBtn>Submit</PrimaryBtn>
+        <button className="btn btn-primary text-white">Submit</button>
       </form>
     </div>
   );
