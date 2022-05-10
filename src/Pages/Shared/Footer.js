@@ -47,7 +47,9 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <p className="text-center mt-10">Copyright@2022</p>
+      <p className="text-center font-bold mt-10">
+        Copyright@2022 - All right reserved to Moniruzzaman
+      </p>
     </footer>
   );
 };
