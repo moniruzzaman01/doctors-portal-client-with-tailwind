@@ -10,12 +10,12 @@ const HomeAppointment = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="flex items-center px-10 mx-5 mt-20 lg:mt-32"
+      className="flex items-center px-10 mt-20 lg:mt-32"
     >
       <div className="flex-1 hidden lg:block">
         <img className="mt-[-100px]" src={doctor} alt="" />
       </div>
-      <div className="flex-1">
+      <div className="flex-1 py-5">
         <h4 className="text-secondary text-lg font-bold">Appointment</h4>
         <h2 className="text-4xl my-3 text-white">Make an appointment today</h2>
         <p className="mb-5 text-white">

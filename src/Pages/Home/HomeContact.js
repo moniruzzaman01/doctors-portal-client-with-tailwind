@@ -15,7 +15,7 @@ const Contact = () => {
       <h4 className="text-secondary text-xl font-bold">Contact Us</h4>
       <h2 className="text-5xl text-white">Stay connected with us</h2>
       <form
-        className="mt-16
+        className="mt-16 px-5
       "
         action=""
       >
@@ -24,7 +24,7 @@ const Contact = () => {
         <InputTag placeholder={"Subject"}></InputTag>
         <br />
         <textarea
-          className="textarea mb-5 textarea-bordered  lg:w-full w-11/12 max-w-lg"
+          className="textarea mb-5 textarea-bordered  w-full max-w-lg"
           placeholder="Your message"
         ></textarea>
         <br />

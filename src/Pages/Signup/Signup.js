@@ -3,9 +3,9 @@ import InputTag from "../Shared/InputTag";
 
 const Signup = () => {
   return (
-    <div className=" lg:max-w-lg mx-auto my-20">
+    <div className=" lg:max-w-lg mx-auto my-20 px-5">
       <h2 className="text-5xl text-center mb-10">SignUp</h2>
-      <form>
+      <form className="">
         <label htmlFor="">Name</label>
         <br />
         <InputTag></InputTag>
@@ -25,10 +25,10 @@ const Signup = () => {
           Have an account? <span className="text-primary">Login</span>
         </p>
       </form>
-      <div class="flex flex-col w-full border-opacity-50">
-        <div class="divider my-14">OR</div>
+      <div className="flex flex-col w-full border-opacity-50">
+        <div className="divider my-14">OR</div>
       </div>
-      <button class="btn btn-outline w-full">continue with google</button>
+      <button className="btn btn-outline w-full">continue with google</button>
     </div>
   );
 };

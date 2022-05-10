@@ -19,7 +19,7 @@ const Banner = () => {
           className="max-w-sm rounded-lg shadow-2xl lg:mr-5"
           alt=""
         />
-        <div className="lg:ml-5">
+        <div className="lg:ml-5 pb-10">
           <h1 className="text-5xl font-bold">Your New Smile Starts Here</h1>
           <p className="py-6">
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda

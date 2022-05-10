@@ -3,7 +3,7 @@ import InputTag from "../Shared/InputTag";
 
 const Login = () => {
   return (
-    <div className=" lg:max-w-lg mx-auto my-20">
+    <div className=" lg:max-w-lg mx-auto my-20 px-5">
       <h2 className="text-5xl text-center mb-10">Login</h2>
       <form>
         <label htmlFor="">Email</label>
@@ -21,10 +21,10 @@ const Login = () => {
           <span className="text-primary">Create new account</span>
         </p>
       </form>
-      <div class="flex flex-col w-full border-opacity-50">
-        <div class="divider my-14">OR</div>
+      <div className="flex flex-col w-full border-opacity-50">
+        <div className="divider my-14">OR</div>
       </div>
-      <button class="btn btn-outline w-full">continue with google</button>
+      <button className="btn btn-outline w-full">continue with google</button>
     </div>
   );
 };

@@ -8,7 +8,7 @@ import Info from "./Info";
 
 const Home = () => {
   return (
-    <div className="lg:px-10">
+    <div>
       <Banner />
       <Info />
       <Service />

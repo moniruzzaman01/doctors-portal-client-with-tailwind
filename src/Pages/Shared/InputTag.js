@@ -6,7 +6,7 @@ const InputTag = ({ placeholder, value }) => {
       type="text"
       placeholder={placeholder || ""}
       defaultValue={value || ""}
-      className="input mb-5 input-bordered lg:w-full w-11/12 max-w-lg"
+      className="input mb-5 input-bordered w-full max-w-lg"
     />
   );
 };
