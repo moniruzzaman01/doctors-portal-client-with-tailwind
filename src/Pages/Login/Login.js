@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import InputTag from "../Shared/InputTag";
 
 const Login = () => {
   return (

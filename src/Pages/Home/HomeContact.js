@@ -1,6 +1,5 @@
 import React from "react";
 import contactBg from "../../assets/images/appointment.png";
-import InputTag from "../Shared/InputTag";
 
 const Contact = () => {
   return (
