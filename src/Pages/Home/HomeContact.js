@@ -19,9 +19,19 @@ const Contact = () => {
       "
         action=""
       >
-        <InputTag placeholder={"Email Address"}></InputTag>
+        <input
+          type="text"
+          name=""
+          placeholder="Your Email"
+          className="input mb-5 input-bordered w-full max-w-lg"
+        />
         <br />
-        <InputTag placeholder={"Subject"}></InputTag>
+        <input
+          type="text"
+          name=""
+          placeholder="Subject"
+          className="input mb-5 input-bordered w-full max-w-lg"
+        />
         <br />
         <textarea
           className="textarea mb-5 textarea-bordered  w-full max-w-lg"
